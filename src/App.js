@@ -13,10 +13,13 @@ const App = () => {
     switch (name) {
       case "good":
         setGood(good + 1);
+        return;
       case "bad":
         setBad(bad + 1);
+        return;
       case "neutral":
         setNeutral(neutral + 1);
+        return;
     }
   };
 
